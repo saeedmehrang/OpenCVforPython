@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('sudoku.png',0)
+img = cv2.imread('images_to_test_scripts/sudoku.png',0)
 cv2.imshow("Original",img)
 
 ret, thresh_basic = cv2.threshold(img,70,255,cv2.THRESH_BINARY)
