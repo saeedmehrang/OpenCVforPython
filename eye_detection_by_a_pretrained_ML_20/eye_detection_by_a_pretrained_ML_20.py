@@ -1,3 +1,6 @@
+## a pretrained ML algorithm for eye detection is imported and used to locate the center, width and height of eyes in an image.
+## the detected eyes are then sketched on top of the original input image 
+
 import numpy as np
 import cv2
 
