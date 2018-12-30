@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-img = cv2.imread("opencv-logo.png", 1)
+img = cv2.imread("images_to_test_scripts/opencv-logo.png", 1)
 # img
 print(type(img))
 len(img)
