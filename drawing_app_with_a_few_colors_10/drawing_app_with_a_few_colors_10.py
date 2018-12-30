@@ -1,3 +1,5 @@
+## draw on a figure using contnuous mouse click. Two custom colors are defined, 'g' for green and 'b' for blue.  
+
 import numpy as np
 import cv2
 
