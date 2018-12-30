@@ -1,3 +1,5 @@
+## Get a video stream from the webcam and draw circles on it by mouse clicks 
+
 import numpy as np
 import cv2
 
