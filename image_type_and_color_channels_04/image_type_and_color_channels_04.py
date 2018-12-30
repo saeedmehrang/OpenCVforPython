@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-color = cv2.imread("butterfly.jpg", 1)
+color = cv2.imread("images_to_test_scripts/butterfly.jpg", 1)
 cv2.imshow("Image",color)
 cv2.moveWindow("Image",0,0)
 print(color.shape)
