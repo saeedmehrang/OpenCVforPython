@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import random
 
-img = cv2.imread("fuzzy.png",1)
+img = cv2.imread("images_to_test_scripts/fuzzy.png",1)
 cv2.imshow("Original",img)
 
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
