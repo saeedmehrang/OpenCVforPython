@@ -1,3 +1,5 @@
+## capture video from your webcam and show it on your screen! 
+
 import numpy as np
 import cv2
 
