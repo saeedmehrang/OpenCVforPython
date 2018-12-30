@@ -1,8 +1,10 @@
+## The template is convolved with the original image to get the similarity of different regions of the frame with template
+
 import numpy as np
 import cv2
 
-template = cv2.imread('template.jpg',0)
-frame = cv2.imread("players.jpg",0)
+template = cv2.imread('images_to_test_scripts/template.jpg',0)
+frame = cv2.imread("images_to_test_scripts/players.jpg",0)
 
 cv2.imshow("Frame",frame)
 cv2.imshow("Template",template)
