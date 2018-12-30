@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('faces.jpeg',1)
+img = cv2.imread('images_to_test_scripts/faces.jpeg',1)
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 h = hsv[:,:,0]
 s = hsv[:,:,1]
