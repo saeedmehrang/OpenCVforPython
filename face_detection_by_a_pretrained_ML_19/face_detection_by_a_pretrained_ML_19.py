@@ -1,3 +1,5 @@
+## face detection by a pretrained ML algorithm. The detected faces are sketched on top of the original image by rectangles 
+
 import numpy as np
 import cv2
 
