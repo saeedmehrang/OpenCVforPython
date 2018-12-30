@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 
-bw = cv2.imread('detect_blob.png', 0)
+bw = cv2.imread('images_to_test_scripts/detect_blob.png', 0)
 height, width = bw.shape[0:2]
 cv2.imshow("Original BW",bw)
 
